@@ -10,7 +10,7 @@ runs:
         node-version: 18
 
     - name: Get npm cache directory path
-      id: npm-cache-dir
+      id: npm-cache-dir-path
       run: echo "dir=$(npm config get cache)" >> $GITHUB_OUTPUT
       shell: bash
 
